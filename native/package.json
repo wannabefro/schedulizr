@@ -39,7 +39,8 @@
     ]
   },
   "jest": {
-    "preset": "jest-expo"
+    "preset": "jest-expo",
+    "setupTestFrameworkScriptFile": "<rootDir>/jestSetup.js"
   },
   "dependencies": {
     "axios": "^0.18.0",
